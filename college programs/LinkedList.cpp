@@ -39,6 +39,7 @@ class LinkedList
             }
             Node *newnode = new Node(d);
             temp->next=newnode;
+            
 
         }
     }

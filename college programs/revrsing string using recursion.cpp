@@ -14,14 +14,11 @@ string recurr(string nam, int len)
 
 int main()
 {
-    string s="hello world";
-    string bresker(52,'*');
+    string s;
+    cout<<"Enter a string : "<<endl;
+    getline(cin,s);
 
-    for(int i=s.length();i>=0;i--)
-    {
-        cout<<s[i];
-    }
-    cout<<endl;
+    string bresker(52,'*');
     cout<<bresker<<endl;
 
     string rev = recurr(s,s.length());
